@@ -39,14 +39,6 @@ The PAS formula is effective in capturing the audience's attention, engaging the
 - Streamlit Lottie
 - Tenacity
 
-## Contributing
-
-Contributions are welcome! If you have any ideas for improvements or bug fixes, please open an issue or submit a pull request.
-
-## License
-
-[TODO: Insert license information here]
-
 ## Acknowledgements
 
 - Special thanks to OpenAI for providing access to the GPT-3.5 model.
