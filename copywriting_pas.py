@@ -1,8 +1,8 @@
-import time
 import os
-import json
 import streamlit as st
 from tenacity import retry, stop_after_attempt, wait_random_exponential
+import google.generativeai as genai
+
 
 def main():
     set_page_config()
@@ -124,9 +124,9 @@ def generate_text_with_exception_handling(prompt):
 
         generation_config = {
             "temperature": 1,
-            "top_p": 0.95,
+            "top_p": 0.7,
             "top_k": 0,
-            "max_output_tokens": 8192,
+            "max_output_tokens": 500,
         }
 
         safety_settings = [
